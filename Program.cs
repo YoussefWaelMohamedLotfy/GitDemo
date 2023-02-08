@@ -1,7 +1,6 @@
-﻿int number = 5;
-bool isOdd = number % 2 != 0;
+﻿int number = 6;
 
-Console.WriteLine(isOdd);
+Console.WriteLine(IsOdd(number));
 
 
 Console.WriteLine(IsEven(number));
@@ -9,4 +8,10 @@ Console.WriteLine(IsEven(number));
 bool IsEven(int num)
 {
     return num % 2 == 0;
+}
+
+
+bool IsOdd(int num)
+{
+    return num % 2 != 0;
 }
