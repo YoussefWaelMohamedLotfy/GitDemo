@@ -8,5 +8,5 @@ Console.WriteLine(IsEven(number));
 
 bool IsEven(int num)
 {
-    return number % 2 == 0;
+    return num % 2 == 0;
 }
