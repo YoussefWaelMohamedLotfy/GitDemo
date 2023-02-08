@@ -2,3 +2,11 @@
 bool isOdd = number % 2 != 0;
 
 Console.WriteLine(isOdd);
+
+
+Console.WriteLine(IsEven(number));
+
+bool IsEven(int num)
+{
+    return number % 2 == 0;
+}
